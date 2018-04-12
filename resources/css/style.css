@@ -1,0 +1,138 @@
+/*Universal Styles */
+
+body {  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: lighter;
+}
+
+a {
+  color: seashell;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+div {
+  display: block;
+}
+
+/*Universal Styles main content*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+  border-top: 1px solid white;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Store */
+
+#store {
+  height: 700px;
+  margin:auto;
+  padding-top: 70px;
+  margin: 0px 100px;
+}
+
+.item {
+  height: 255px;
+  width: 319.906px;
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  justify-content: center;
+  background-color: black;
+  opacity: 1.0px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+/* Contact section */
+
+#contact {
+  height: 200px;
+  }
+
+/* Footer section */
+
+footer {
+  text-align: left;
+  padding: 20px;
+}
