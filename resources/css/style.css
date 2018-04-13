@@ -44,6 +44,11 @@ nav {
   flex-grow: 1;
 }
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 div {
   display: block;
 }
@@ -58,9 +63,14 @@ div {
 
 /* Header */
 
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
+header {
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  border-bottom: 1px solid white;
 }
 
 header img {
@@ -74,6 +84,7 @@ header img {
 #mission {
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
   padding-top: 70px;
   border-top: 1px solid white;
 }
@@ -91,12 +102,14 @@ header img {
   margin:auto;
   padding-top: 70px;
   margin: 0px 100px;
+
 }
 
 .item {
   height: 255px;
   width: 319.906px;
   padding: 5px;
+  display: block;
 }
 
 .item img {
@@ -109,6 +122,8 @@ header img {
 
 #locations {
   background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 500px;
   padding-top: 70px;
 }
